@@ -1,0 +1,75 @@
+Fri Dec 14 13:53:42 2012 - SENT: - <?xml version='1.0' encoding='UTF-8' ?>                   <stream:stream to='gmail.com' xmlns='jabber:client' xmlns:stream='http://etherx.jabber.org/streams'>
+Fri Dec 14 13:53:42 2012 - RECV: - <stream:stream from="gmail.com" id="6AB93431EC611412" xmlns:stream="http://etherx.jabber.org/streams" xmlns="jabber:client">
+Fri Dec 14 13:53:42 2012 - SENT: - <iq type='get' id='auth-get'><query xmlns = 'jabber:iq:auth' ><username>gtalkbot4ti</username></query></iq>
+Fri Dec 14 13:53:42 2012 - RECV: - <iq id="auth-get" type="result"><query xmlns="jabber:iq:auth"><username/><resource/><password/></query></iq>
+Fri Dec 14 13:53:42 2012 - SENT: - <iq type='set' id='auth-set'><query xmlns = 'jabber:iq:auth' ><username>gtalkbot4ti</username><resource>conference</resource><password>4tigtalk</password></query></iq>
+Fri Dec 14 13:53:42 2012 - RECV: - <iq id="auth-set" type="result"/>
+Fri Dec 14 13:53:42 2012 - SENT: - <iq type='get' id='1'><query xmlns = 'jabber:iq:roster' ></query></iq>
+Fri Dec 14 13:53:42 2012 - RECV: -  
+Fri Dec 14 13:53:43 2012 - RECV: - <iq to="gtalkbot4ti@gmail.com/conference" id="1" type="result"><query xmlns="jabber:iq:roster"><item jid="djdanio612@gmail.com" subscription="both"/><item jid="lordbioly@gmail.com" subscription="both"/><item jid="aroaro1993@gmail.com" subscription="both"/><item jid="bartosz.wojciech@gmail.com" subscription="both"/><item jid="michal93.14@gmail.com" subscription="both"/><item jid="sylwek.ksiazek@gmail.com" subscription="none"/><item jid="sylwek.siazek@gmail.com" subscription="none" ask="subscribe"/></query></iq>
+Fri Dec 14 13:53:43 2012 - SENT: - <presence></presence>
+Fri Dec 14 13:53:43 2012 - SENT: - <presence><status>Ready</status></presence>
+Fri Dec 14 13:53:43 2012 - SENT: - <presence from='gtalkbot4ti@gmail.com/conference'></presence>
+Fri Dec 14 13:53:43 2012 - SENT: - <presence><status>Ready</status></presence>
+Fri Dec 14 13:53:43 2012 - SENT: - <message to='gtalkbot4ti@gmail.com/conference'><body>Q1355489623:2012-12-14 13:53:43</body><active xmlns='http://jabber.org/protocol/chatstates'></active></message>
+Fri Dec 14 13:53:43 2012 - RECV: -  
+Fri Dec 14 13:53:43 2012 - RECV: - <presence from="lordbioly@gmail.com/gmail.971DB2ED" to="gtalkbot4ti@gmail.com/conference"><status/><priority>24</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 vavinvite-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>4ee953c0b2269d92952635b1282a546ae456494f</photo></x></presence>
+Fri Dec 14 13:53:43 2012 - RECV: -  
+Fri Dec 14 13:53:43 2012 - RECV: - <presence from="djdanio612@gmail.com/gmail.936003EA" to="gtalkbot4ti@gmail.com/conference"><status/><priority>24</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 vavinvite-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo/></x></presence>
+Fri Dec 14 13:53:43 2012 - RECV: - <message to="gtalkbot4ti@gmail.com/conference" from="gtalkbot4ti@gmail.com/conference"><body>Q1355489623:2012-12-14 13:53:43</body><active xmlns="http://jabber.org/protocol/chatstates"/></message>
+Fri Dec 14 13:53:43 2012 - RECV: - <presence from="aroaro1993@gmail.com/gmail.973B7663" to="gtalkbot4ti@gmail.com/conference"><status/><show>away</show><priority>0</priority><caps:c node="http://mail.google.com/xmpp/client/caps" ver="1.1" ext="pmuc-v1 sms-v1 vavinvite-v1" xmlns:caps="http://jabber.org/protocol/caps"/><x xmlns="vcard-temp:x:update"><photo>1ef77c540152be4ce13d71abbeef644b38d830cf</photo></x></presence>
+Fri Dec 14 13:53:52 2012 - RECV: - <message to="gtalkbot4ti@gmail.com" type="chat" id="5D560307D7E5AC4D_82" iconset="square" from="lordbioly@gmail.com/gmail.971DB2ED"><body>!bot</body><met:google-mail-signature xmlns:met="google:metadata">G_KIR6-1hZirkZpU571rYINBKCA</met:google-mail-signature><cha:active xmlns:cha="http://jabber.org/protocol/chatstates"/><nos:x value="disabled" xmlns:nos="google:nosave"/><arc:record otr="false" xmlns:arc="http://jabber.org/protocol/archive"/></message>
+Fri Dec 14 13:53:54 2012 - SENT: - <message to='lordbioly@gmail.com' from='gtalkbot4ti@gmail.com/conference' type='chat'><body>*** I cannot think of anything to say.</body><active xmlns='http://jabber.org/protocol/chatstates'></active></message>
+Fri Dec 14 13:53:54 2012 - RECV: - <message to="gtalkbot4ti@gmail.com/conference" type="chat" id="5D560307D7E5AC4D_83" iconset="square" from="lordbioly@gmail.com/gmail.971DB2ED"><body>!help</body><met:google-mail-signature xmlns:met="google:metadata">BBe0GKJw2T4K9co4Lt5CdzDGgog</met:google-mail-signature><cha:active xmlns:cha="http://jabber.org/protocol/chatstates"/><nos:x value="disabled" xmlns:nos="google:nosave"/><arc:record otr="false" xmlns:arc="http://jabber.org/protocol/archive"/></message>
+Fri Dec 14 13:53:54 2012 - SENT: - <message to='lordbioly@gmail.com' from='gtalkbot4ti@gmail.com/conference' type='chat'><body>*** Commands: 
+ /status              "/status [message]" Set or see the bot's status
+ /lang                "/lang [language]" Set language to "language" or reset to default
+ /whois               "/whois [nick]" View someone's status
+ /quit                "/quit" Quit this room for ever
+ /help                "/help" Show this help message
+ /away                "/away [message]" Set "away"(need message) or "chat"(no message) flag of someone
+ /bot                 /bot - rozmowa z botem
+ /mode                "/mode option" Set or remove flag to someone. For example: "+s" filter system message, "-s" receive system message
+ /leave               "/leave" The same as /quit
+ /me                  "/me &lt;emote&gt; [&lt;msg&gt;]" Says an emote as you
+ /version             "/version" Show version of this bot
+ /exit                "/exit" The same as /quit
+ /names               "/names" List all the people in the room
+ /chat                "/chat" Remove "away" flag of someone, just like "/away"
+ /msg                 "/msg nick message" Send a private message to someone
+ /listemotes          "/listemotes" List all emote string
+ /plan                /plan - wyswietlanie planu lekcji (dzien tygodnia w formacie 1-5, pn -pt lub pelna nazwa)
+ /data                /data - podaje aktualna date
+ /nochat              "/nochat [message]" Set "away" flag of someone, just like "/away message"
+ /listlangs           "/listlangs" List all support language
+ /czas                /czas - podaje aktualny czas
+</body><active xmlns='http://jabber.org/protocol/chatstates'></active></message>
+Fri Dec 14 13:53:54 2012 - SENT: - <message to='lordbioly@gmail.com' from='gtalkbot4ti@gmail.com/conference' type='chat'><body>*** Admin commands: 
+ /deladmin            "/deladmin nick" Remove admin right from someone
+ /invite              "/invite nick" Invite someone to join this room
+ /delemote            "/delemote action" Del emote string
+ /setoption           "/setoption option value" Set an option's value
+ /boot                "/boot" The same as /kick
+ /refresh             "/refresh" Update the conference bot website
+ /reload              "/reload" Reload the config
+ /addadmin            "/addadmin nick" Set someone as administrator
+ /reconnect           "/reconnect" Reconnect the server
+ /die                 "/die [message]" Close the room
+ /ban                 "/ban nick" Forbid someone rejoin this room
+ /listoptions         "/listoptions" List all options that can be changed
+ /addemote            "/addemote action emote" Add emote string
+ /unban               "/unban nick" Permit someone rejoin this room
+ /kick                "/kick nick" Kick someone out of this room
+</body><active xmlns='http://jabber.org/protocol/chatstates'></active></message>
+Fri Dec 14 13:53:54 2012 - SENT: - <message to='lordbioly@gmail.com' from='gtalkbot4ti@gmail.com/conference' type='chat'><body>*** See http://coders.meta.net.nz/~perry/jabber/confbot.php for more details.
+Also see http://www.donews.net/limodou for Chinese version.</body><active xmlns='http://jabber.org/protocol/chatstates'></active></message>
+Fri Dec 14 13:53:56 2012 - RECV: - <message to="gtalkbot4ti@gmail.com/conference" type="chat" from="lordbioly@gmail.com/gmail.971DB2ED"><cha:composing xmlns:cha="http://jabber.org/protocol/chatstates"/><nos:x value="disabled" xmlns:nos="google:nosave"/><arc:record otr="false" xmlns:arc="http://jabber.org/protocol/archive"/></message>
+Fri Dec 14 13:54:00 2012 - RECV: - <message to="gtalkbot4ti@gmail.com/conference" type="chat" id="5D560307D7E5AC4D_84" iconset="square" from="lordbioly@gmail.com/gmail.971DB2ED"><body>!bot trolololo</body><met:google-mail-signature xmlns:met="google:metadata">PFis4Pvr7eRfWkGS6Q7fdpIFTiI</met:google-mail-signature><cha:active xmlns:cha="http://jabber.org/protocol/chatstates"/><nos:x value="disabled" xmlns:nos="google:nosave"/><arc:record otr="false" xmlns:arc="http://jabber.org/protocol/archive"/></message>
+Fri Dec 14 13:54:02 2012 - SENT: - <message to='lordbioly@gmail.com' from='gtalkbot4ti@gmail.com/conference' type='chat'><body>*** Jbbilg.</body><active xmlns='http://jabber.org/protocol/chatstates'></active></message>
+Fri Dec 14 13:54:04 2012 - RECV: - <message to="gtalkbot4ti@gmail.com/conference" type="chat" from="lordbioly@gmail.com/gmail.971DB2ED"><cha:composing xmlns:cha="http://jabber.org/protocol/chatstates"/><nos:x value="disabled" xmlns:nos="google:nosave"/><arc:record otr="false" xmlns:arc="http://jabber.org/protocol/archive"/></message>
+Fri Dec 14 13:54:05 2012 - RECV: - <message to="gtalkbot4ti@gmail.com/conference" type="chat" id="5D560307D7E5AC4D_85" iconset="square" from="lordbioly@gmail.com/gmail.971DB2ED"><body>!bot</body><met:google-mail-signature xmlns:met="google:metadata">QbZktK9Lxa20WlDQ5r8yl7BVwtI</met:google-mail-signature><cha:active xmlns:cha="http://jabber.org/protocol/chatstates"/><nos:x value="disabled" xmlns:nos="google:nosave"/><arc:record otr="false" xmlns:arc="http://jabber.org/protocol/archive"/></message>
+Fri Dec 14 13:54:07 2012 - SENT: - <message to='lordbioly@gmail.com' from='gtalkbot4ti@gmail.com/conference' type='chat'><body>*** Who are you?</body><active xmlns='http://jabber.org/protocol/chatstates'></active></message>
+Fri Dec 14 13:54:10 2012 - RECV: - <message to="gtalkbot4ti@gmail.com/conference" type="chat" from="lordbioly@gmail.com/gmail.971DB2ED"><cha:composing xmlns:cha="http://jabber.org/protocol/chatstates"/><nos:x value="disabled" xmlns:nos="google:nosave"/><arc:record otr="false" xmlns:arc="http://jabber.org/protocol/archive"/></message>
+Fri Dec 14 13:54:24 2012 - RECV: - <message to="gtalkbot4ti@gmail.com/conference" type="chat" id="5D560307D7E5AC4D_86" iconset="square" from="lordbioly@gmail.com/gmail.971DB2ED"><body>!bot I'm human</body><met:google-mail-signature xmlns:met="google:metadata">ptHgtO7sgdK9qyzlUwtEM77AUBo</met:google-mail-signature><cha:active xmlns:cha="http://jabber.org/protocol/chatstates"/><nos:x value="disabled" xmlns:nos="google:nosave"/><arc:record otr="false" xmlns:arc="http://jabber.org/protocol/archive"/></message>
+Fri Dec 14 13:54:31 2012 - SENT: - <message to='lordbioly@gmail.com' from='gtalkbot4ti@gmail.com/conference' type='chat'><body>*** I'm fused with another human.</body><active xmlns='http://jabber.org/protocol/chatstates'></active></message>
+Fri Dec 14 13:54:35 2012 - RECV: - <message to="gtalkbot4ti@gmail.com/conference" type="chat" from="lordbioly@gmail.com/gmail.971DB2ED"><cha:inactive xmlns:cha="http://jabber.org/protocol/chatstates"/><nos:x value="disabled" xmlns:nos="google:nosave"/><arc:record otr="false" xmlns:arc="http://jabber.org/protocol/archive"/></message>
